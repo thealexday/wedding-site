@@ -1,0 +1,32 @@
+/* @font-face {
+    font-family: title-letter;
+    src: url('../../fonts/mr_hamiltoneg.otf');
+  } */
+
+  @font-face {
+    font-family: monserrat;
+    src: url('../../fonts/Montserrat-Thin.ttf');
+  }
+
+.footer{
+    margin-top: 50px;
+}
+
+.handsBackground{
+    width: 150px;
+    height: 75px;
+    margin: 0 auto;
+    background-image: url('../../../public/static/Руки.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.footerTitle{
+    font-family: "monserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-size: 30px;
+    font-style: normal;
+    text-align: center;
+}
+

@@ -1,0 +1,72 @@
+.title {
+  font-family: "Poiret One", 'sans-serif';
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-size: 50px;
+  font-style: normal;
+  text-align: center;
+  margin: 50px 0;
+
+}
+
+.titleLeft {
+  font-family: "monserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-size: 50px;
+  font-style: normal;
+  text-align: left;
+  margin: 50px 0;
+}
+
+.noneBlock {
+  visibility: hidden;
+}
+
+/* @keyframes titleAnimate {
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    25% {
+        transform: translateY(-75px);
+        opacity: 0.3;
+    }
+    50% {
+        transform: translateY(-50px);
+        opacity: 0.8;
+    }
+    75% {
+        transform: translateY(-25px);
+        opacity: 0.9;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+    }
+  */
+
+
+@media (max-width: 700px) and (min-width: 600px) {
+  .title {
+    font-size: 40px;
+    margin: 30px 0;
+  }
+
+}
+
+@media (max-width: 599px) and (min-width: 400px) {
+  .title {
+    font-size: 35px;
+    margin: 20px 0;
+  }
+
+}
+
+@media(max-width: 399px) {
+  .title {
+    font-size: 30px;
+    margin: 20px 0;
+  }
+}

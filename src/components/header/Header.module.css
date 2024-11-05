@@ -1,0 +1,215 @@
+@font-face {
+    font-family: sometimes;
+    src: url("../../fonts/Sometimes.otf");
+}
+
+@font-face {
+    font-family: monserrat;
+    src: url('../../fonts/Montserrat-Thin.ttf');
+  }
+
+.main{
+    background-image: url('../../../public/static/7B6A1050.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.mainGelya{
+    background-image: url('../../../public/static/IMG_7190.JPG');
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+    height: 100vh;
+}
+
+.header{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   height: 100vh;
+}
+
+.headerInfoBox{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    font-family: "monserrat", "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 50px;
+    font-style: normal;
+    text-align: center;
+    color: white;
+}
+
+.titleDate{
+    /* font-family: "sometimes"; */
+    font-family: "Poiret One", sans-serif;
+    color: white;
+    font-size: 30px;
+    font-weight: 100;
+    margin-top: 30px;
+}
+
+.titleName{
+    /* font-family: "sometimes"; */
+    font-family: "Poiret One", sans-serif;
+    font-size: 40px;
+    font-weight: 100;
+    margin-top: 30px;
+    color: white;
+}
+
+.dateBlock{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding-bottom: 10px;
+}
+
+.from{
+    font-family: "Poiret One", sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.focus_in_contract_bck {
+    -webkit-animation: focus-in-contract-bck 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation: focus-in-contract-bck 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+
+  @-webkit-keyframes focus_in_contract_bck {
+    0% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(300px);
+              transform: translateZ(300px);
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateZ(12px);
+            transform: translateZ(12px);
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    opacity: 1;
+  }
+}
+@keyframes focus-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(300px);
+            transform: translateZ(300px);
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(12px);
+            transform: translateZ(12px);
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    opacity: 1;
+  }
+}
+
+
+
+@media (max-width: 700px) and (min-width: 600px) {
+    .dateBlock{
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        align-items: center;
+        /* height: 71vh; */
+        height: 100%;
+        padding-bottom: 10px;
+    }
+
+    .title{
+        margin-top: 30px;
+        color: white;
+        font-size: 40px;
+        font-weight: 100;
+    }
+
+    .titleName{
+        font-family: "Poiret One", sans-serif;
+        font-size: 30px;
+        font-weight: 100;
+        margin-top: 30px;
+        color: white;
+    }
+   
+  }
+  
+  @media (max-width: 599px) and (min-width: 400px){
+    .dateBlock{
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        align-items: center;
+        /* height: 71vh; */
+        height: 100%;
+        padding-bottom: 10px;
+    }
+
+    .title{
+        margin-top: 30px;
+        color: white;
+        font-size: 40px;
+        font-weight: 100;
+    }
+
+    .titleName{
+        font-family: "Poiret One", sans-serif;
+        font-size: 30px;
+        font-weight: 100;
+        margin-top: 30px;
+        color: white;
+    }
+   
+  
+  }
+  
+  @media(max-width: 399px){
+    .dateBlock{
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        align-items: center;
+        /* height: 71vh; */
+        height: 100%;
+        padding-bottom: 10px;
+    }
+
+    .title{
+        margin-top: 30px;
+        color: white;
+        font-size: 40px;
+        font-weight: 100;
+    }
+
+    .titleName{
+        font-family: "Poiret One", sans-serif;
+        font-size: 30px;
+        font-weight: 100;
+        margin-top: 30px;
+        color: white;
+    }
+   
+  }
+  
+
+
+   
+

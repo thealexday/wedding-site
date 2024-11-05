@@ -1,0 +1,57 @@
+.photoBox{
+    width: 300px;
+    height: 400px;
+    background-image: url('../../../public/static/7B6A0996-4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 -40px;
+    margin: 50px auto 50px auto;
+    border-radius: 15px;
+   
+}
+
+.photoBoxGelya{
+    width: 300px;
+    height: 400px;
+    background-image: url('../../../public/static/gelya_2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 -40px;
+    margin: 50px auto 50px auto;
+    border-radius: 15px;
+   
+}
+
+.photoFormBox{
+    animation: opacity linear 2s;
+}
+
+.noneBlock{
+    visibility: hidden;
+}
+
+.dateSpan{
+    font-weight: bold;
+}
+
+@keyframes opacity {
+    0% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 0.3;
+    }
+
+    50% {
+        opacity: 0.8;
+    }
+
+    75% {
+        opacity: 0.9;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

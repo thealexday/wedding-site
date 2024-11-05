@@ -1,0 +1,75 @@
+
+
+.descriptionText {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    font-style: normal;
+    max-width: 60%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    color: rgb(0, 0, 0);
+  }
+
+  .center{
+    text-align: center;
+  }
+
+  .right{
+    text-align: right;
+    margin: 0;
+  }
+
+  .left{
+    margin: 0;
+    text-align: left;
+  }
+
+  @media (max-width: 700px) and (min-width: 600px) {
+
+    .color_black,
+    .color_grey,
+    .color_chokolate,
+    .color_olive,
+    .color_bezh,
+    .color_korich,
+    .color_wine,
+    .color_darkBlue {
+        width: 80px;
+        height: 80px;
+    }
+
+    .colorText{
+        font-family: "Poiret One", sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+}
+
+
+
+@media (max-width: 700px) and (min-width: 600px) {
+  .descriptionText{
+    max-width: 70%;
+    font-size: 24px;
+  }
+ 
+}
+
+@media (max-width: 599px) and (min-width: 400px){
+  .descriptionText{
+   max-width: 70%;
+    font-size: 16px;
+  }
+
+}
+
+@media(max-width: 399px){
+  .descriptionText{
+  max-width: 70%;
+    font-size: 16px;
+  }
+}
+
+  

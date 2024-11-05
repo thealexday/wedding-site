@@ -1,0 +1,55 @@
+.formBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.formText {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    font-style: normal;
+  }
+
+  .label{
+    font-family: "Poiret One", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+  }
+
+  .fakeCircle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-right: 10px;
+  }
+
+  .error{
+    border: 3px solid darkred;
+  }
+
+  .fakeCircle__on{
+     width: 9px;
+     height: 9px;
+     border-radius: 50%;
+     background-color: rgb(28, 28, 28);
+  }
+
+  /* .label::after{
+      content: '';
+      width: 15px;
+      height: 15px;
+      display: inline-block;
+      align-items: center;
+      border-radius: 50%;
+      border: 2px solid black;
+  } */

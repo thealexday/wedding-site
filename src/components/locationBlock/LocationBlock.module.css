@@ -1,0 +1,29 @@
+.noneBlock {
+    visibility: hidden;
+}
+
+.locationBox{
+    animation: event linear 0.8s;
+}
+
+@keyframes event {
+    0% {
+        transform: translateY(150px);
+    }
+
+    25% {
+        transform: translateY(100px);
+    }
+
+    50% {
+        transform: translateY(50px);
+    }
+
+    75% {
+        transform: translateY(25px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
